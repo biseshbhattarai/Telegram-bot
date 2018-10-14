@@ -1,9 +1,9 @@
 import json
 import requests
 import time
+import config
 
-
-TOKEN = "665426202:AAE1zzsXrjos9NO6zflZbDzA8iQZyIAIHvY"
+TOKEN = config.TOKEN
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 def get_url(url):
@@ -18,7 +18,7 @@ def get_json_from_url(url):
     return js
 
 
-def get_updates():
+def get_updates(offset=None):
     url = URL + "getUpdates"
     if offset:
         url += "?offset={}".format(offset)
