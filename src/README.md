@@ -2,4 +2,4 @@
 
 ### Todo
 
-#### Futhermore, a lots of updates are required.
+#### A lots of updates are required (Adding news apis and weather apis)
