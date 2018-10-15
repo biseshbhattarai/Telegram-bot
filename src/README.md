@@ -2,4 +2,4 @@
 
 ### Todo
 
-#### A lots of updates are required (Adding news apis and weather apis)
+#### This bot saves your time in searching for latest news around the world and gives to precise weather information through telegram with a simple command.
